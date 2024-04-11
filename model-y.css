@@ -1,0 +1,164 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    color: #1d2025;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.desktop{
+    display: none;
+}
+
+@media (min-width: 1200px) {
+    .desktop{
+        display: initial;
+    }
+}
+header{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    padding: 5px 20px;
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+}
+a.logo{
+    height: 12px;
+    width: 100px;
+    color: inherit;
+}
+header a{
+    color: inherit;
+    text-align: center;
+}
+header .center a{
+    text-decoration:none;
+    padding: 10px;
+    margin-left: 160px;
+}
+
+.wrapper{
+    position: relative;
+    width: 650px;
+    height: 500px; 
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, .5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    margin-left: 350px;
+    display: flex;
+ }
+
+ .input-box{
+    position: fixed;
+    width: 120px;
+    height: 50px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.input-box input{
+    width: 200px;
+    height: 40px;
+    outline: none;
+    font-size: 17px;
+    background-color: rgb(239, 241, 241);
+    font-weight: 600;
+    padding: 0 35px 0 5px;
+    border-radius: 4px;
+    border: 1px;
+}
+
+
+Div h3{
+    margin-top: 75px;
+    padding-left: 30px;
+    color: rgb(20, 21, 27);
+    display: flex;
+}
+
+.wrapper nav{
+   padding: 15px;
+   font-size: 22px;
+}
+Div h2{
+    margin-top: 20px;
+}
+
+.main button{
+    border-radius: 25px;
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+    border: none;
+    position: relative;
+}
+
+.main button:hover{
+    border: 2px solid rgb(125, 125, 150);
+    transition: 0.1s;
+}
+
+.main{
+    display: grid;
+    margin-top: 65px;
+    width: 20px;
+    height: 20px;
+    padding: 20px;
+    margin-left: 50px;
+}
+
+.mdl{
+    margin-top: 50px;
+    width: 50px;
+    height: 25px;
+}
+
+.mdl a{
+    margin-top: 10opx;
+    padding: 5px 15px;
+    margin-left: 0px;
+    border: 2px solid rgb(125, 125, 150);
+    border-radius: 3px;
+}
+
+.mdl a:hover{
+    background-color: rgb(15, 15, 156);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 20px;
+    font-size: 16px;
+    transition: 1s;
+}
+
+a{
+    color: inherit;
+    text-decoration: none;
+}
+
+#bannerImage{
+    width: 600px;
+    height: 380px;
+    margin-top: 90px;
+    margin-left: 25px;
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.right{
+    text-align: right;
+    font-size: 20px;
+}
+
+.img{
+    width: 15px;
+    height: 20px;
+
+}
+
+
